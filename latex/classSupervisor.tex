@@ -1,0 +1,94 @@
+\hypertarget{classSupervisor}{}\doxysection{Supervisor Class Reference}
+\label{classSupervisor}\index{Supervisor@{Supervisor}}
+
+
+Represents a supervisor with additional attributes.  
+
+
+
+
+{\ttfamily \#include $<$Supervisor.\+h$>$}
+
+
+
+Inheritance diagram for Supervisor\+:
+% FIG 0
+
+
+Collaboration diagram for Supervisor\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSupervisor_a9d7eafc36b5429092ba0f758bc7841c4}\label{classSupervisor_a9d7eafc36b5429092ba0f758bc7841c4}} 
+\mbox{\hyperlink{classSupervisor_a9d7eafc36b5429092ba0f758bc7841c4}{Supervisor}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor for \mbox{\hyperlink{classSupervisor}{Supervisor}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSupervisor_a02d9245744652deb20e9408001d6ed3b}{Supervisor}} (int \mbox{\hyperlink{classEmployee_a832bbae4ee8a704b917f82c4d497bbac}{ID}}, int \mbox{\hyperlink{classEmployee_a3e4862d9dfc73becb459a562fa2e25f5}{years}}, double \mbox{\hyperlink{classEmployee_ac31134abb9b4004fc015e51ef579b069}{hourly\+Rate}}, float \mbox{\hyperlink{classEmployee_afde35c73d02eb1cfe89e23a80998b42e}{hours\+Worked}}, int \mbox{\hyperlink{classSupervisor_af8b7097d8147c93a68d1f63c5b898797}{num\+Supervised}})
+\begin{DoxyCompactList}\small\item\em Parameterized constructor for \mbox{\hyperlink{classSupervisor}{Supervisor}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSupervisor_a92483dc9a54904d79b46c6ec4efb3f54}\label{classSupervisor_a92483dc9a54904d79b46c6ec4efb3f54}} 
+void \mbox{\hyperlink{classSupervisor_a92483dc9a54904d79b46c6ec4efb3f54}{print}} ()
+\begin{DoxyCompactList}\small\item\em Prints the details of the supervisor. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classSupervisor_aa37daa89523c08b84ae8141299e036f8}{calculate\+Pay}} ()
+\begin{DoxyCompactList}\small\item\em Calculates the pay of the supervisor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSupervisor_af8b7097d8147c93a68d1f63c5b898797}\label{classSupervisor_af8b7097d8147c93a68d1f63c5b898797}} 
+int \mbox{\hyperlink{classSupervisor_af8b7097d8147c93a68d1f63c5b898797}{num\+Supervised}}
+\begin{DoxyCompactList}\small\item\em Number of employees supervised by the supervisor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Represents a supervisor with additional attributes. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classSupervisor_a02d9245744652deb20e9408001d6ed3b}\label{classSupervisor_a02d9245744652deb20e9408001d6ed3b}} 
+\index{Supervisor@{Supervisor}!Supervisor@{Supervisor}}
+\index{Supervisor@{Supervisor}!Supervisor@{Supervisor}}
+\doxysubsubsection{\texorpdfstring{Supervisor()}{Supervisor()}}
+{\footnotesize\ttfamily Supervisor\+::\+Supervisor (\begin{DoxyParamCaption}\item[{int}]{ID,  }\item[{int}]{years,  }\item[{double}]{hourly\+Rate,  }\item[{float}]{hours\+Worked,  }\item[{int}]{num\+Supervised }\end{DoxyParamCaption})}
+
+
+
+Parameterized constructor for \mbox{\hyperlink{classSupervisor}{Supervisor}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ID} & \mbox{\hyperlink{classEmployee}{Employee}} ID. \\
+\hline
+{\em years} & Number of years employed. \\
+\hline
+{\em hourly\+Rate} & Hourly rate of the supervisor. \\
+\hline
+{\em hours\+Worked} & Number of hours worked. \\
+\hline
+{\em num\+Supervised} & Number of employees supervised. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classSupervisor_aa37daa89523c08b84ae8141299e036f8}\label{classSupervisor_aa37daa89523c08b84ae8141299e036f8}} 
+\index{Supervisor@{Supervisor}!calculatePay@{calculatePay}}
+\index{calculatePay@{calculatePay}!Supervisor@{Supervisor}}
+\doxysubsubsection{\texorpdfstring{calculatePay()}{calculatePay()}}
+{\footnotesize\ttfamily double Supervisor\+::calculate\+Pay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Calculates the pay of the supervisor. 
+
+\begin{DoxyReturn}{Returns}
+The calculated pay. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classEmployee_a01c2c44e15434237db28832f6972e960}{Employee}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Supervisor_8h}{Supervisor.\+h}}\item 
+\mbox{\hyperlink{Supervisor_8cpp}{Supervisor.\+cpp}}\end{DoxyCompactItemize}
